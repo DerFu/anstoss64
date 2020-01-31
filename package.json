@@ -1,0 +1,26 @@
+{
+  "name": "anstoss64",
+  "version": "1.0.0",
+  "description": "Time to learn a new Framework - This month i choo' choo' choose choo. I want to rebuild the classic football manager ANSTOSS3.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai start",
+    "build": "bankai build",
+    "inspect": "bankai inspect",
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.1",
+    "choo": "^7.0.0",
+    "choo-devtools": "^2.3.3",
+    "sheetify": "^6.0.1",
+    "todomvc-app-css": "^2.0.6",
+    "todomvc-common": "^1.0.3"
+  },
+  "devDependencies": {
+    "bankai": "^9.0.0-rc6",
+    "standard": "^9.0.1"
+  },
+  "author": "Daniel Weber",
+  "license": "ISC"
+}
